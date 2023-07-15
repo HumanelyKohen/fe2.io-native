@@ -1,0 +1,73 @@
+body, html { width: auto; height: 100%; margin: 0; background-color: #000;}
+html { font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}
+.container { justify-content: center; align-items: center; }
+.fe2ioLogo{ width: 400px; margin: auto;}
+.fe2ioWindow { margin: auto; width: 400px; border: 3px solid rgb(18, 25, 32); border-radius: 8px; background-image: linear-gradient(rgb(69, 76, 77), rgb(29, 40, 51)); padding: 10px; }
+.bg { background-image: url("https://fe2.io/FE2IO_BG (2).jpg"); height: 100%; background-attachment: fixed;  background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background-image: linear-gradient(rgb(12, 17, 22), rgb(56, 61, 61));
+    
+    outline: none;
+    -webkit-transition: .2s;
+    border-radius: 8px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(rgb(52, 152, 219), rgb(15, 96, 150)); 
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(rgb(52, 152, 219), rgb(15, 96, 150)); 
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.twitter-timeline {
+    text-align: center;
+    margin: auto;
+}
+
+.embedContent {
+    margin: auto;
+    width: 420px;
+}
+
+.discordButton {
+    border-style: none;
+    background-color: #7289DA;
+    justify-content: center;
+    margin: auto;
+    font-size: large;
+    width: 100%;
+    height: 48px;
+    color: white;
+    text-align: center;
+    white-space: normal;
+    -moz-text-size-adjust: auto;
+    border-radius: 8px;
+}
+
+.discordButton:hover {
+    background-color: #4f5e96;
+    cursor: pointer;
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 6px; /* change this to whatever height you want it */
+}
